@@ -1,0 +1,4 @@
+*.txt
+.history/
+_build/
+deps/

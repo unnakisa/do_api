@@ -8,3 +8,5 @@ Luego de clonar este proyecto, ejecutar mix deps.get para instalar las dependenc
 Para ejecutar dentro de iex la funcionalidad
 
 iex> DoApi.generate_hosts("<aqui_va_la_key>")
+
+En la ruta del proyecto se genera un archivo llamado hosts-do.txt donde se insertan el resultado de las ejecuciones.
