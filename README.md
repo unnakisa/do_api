@@ -1,11 +1,18 @@
 # do_api
-Utilidades para interactuar con Digital Ocean
+Utilidades para interactuar con la api de Digital Ocean
+
+https://developers.digitalocean.com/documentation/v2/
 
 En la interface administrativa en Digital Ocean para cada team o usuario se debe obtener una key.
 
-Luego de clonar este proyecto, ejecutar mix deps.get para instalar las dependencias.
+Dependencias:
 
-Para ejecutar dentro de iex la funcionalidad
+- Erlang Virtual Machine
+- Elixir 1.8 o superior
+
+Luego de clonar este proyecto, ejecutar en el directorio del mismo mix deps.get para instalar las dependencias.
+
+Para inicial la consola del proyecto iex -S mix
 
 iex> DoApi.generate_hosts("<aqui_va_la_key>")
 
